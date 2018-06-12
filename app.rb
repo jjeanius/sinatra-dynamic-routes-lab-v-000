@@ -12,6 +12,8 @@ class App < Sinatra::Base
   end
 
   get '/say/:number/:phrase' do
+    @phrase = params[:number].size.to_i
+
 
   end
 
