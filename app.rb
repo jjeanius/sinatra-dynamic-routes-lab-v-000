@@ -6,7 +6,7 @@ class App < Sinatra::Base
     erb :name||:name.reverse
   end
 
-  get '/squre/:number' do
+  get '/square/:number' do
   "#{params[sqrt(:number)].to_i}"
   end
 
@@ -18,7 +18,7 @@ class App < Sinatra::Base
 
   end
 
-  get '/operation/:number1/:number2' do
+  get '/:operation/:number1/:number2' do
 
   end
 
